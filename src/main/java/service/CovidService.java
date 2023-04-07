@@ -16,11 +16,11 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class CovidService {
 	
-	private static final String url = "https://corona-virus-world-and-india-data.p.rapidapi.com/api";
+	private static final String url = "";
 	
-	private static final String XRapidAPIKey = "f0a978666bmshad15da9e9f75d4ep17bb2cjsne1f9acd28553";
+	private static final String XRapidAPIKey = "";
 	
-	private static final String XRapidAPIHost = "corona-virus-world-and-india-data.p.rapidapi.com";
+	private static final String XRapidAPIHost = "";
 	
 	@Autowired
 	private RestTemplate restTemplate;
@@ -29,8 +29,8 @@ public class CovidService {
 		try {
 			//Header Value Is Set
 			HttpHeaders headers = new HttpHeaders();
-			headers.set("X-RapidAPI-Key", "f0a978666bmshad15da9e9f75d4ep17bb2cjsne1f9acd28553");
-			headers.set("X-RapidAPI-Host", "corona-virus-world-and-india-data.p.rapidapi.com");
+			headers.set("X-RapidAPI-Key", "");
+			headers.set("X-RapidAPI-Host", "");
 			
 			
 			//Make a get  call to rapidAPI
